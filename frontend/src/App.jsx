@@ -5,6 +5,8 @@ import Layout from './pages/Layout';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import Templates from './components/Templates';
+import CreateDesign from './components/CreateDesign';
+import Main from './pages/Main';
 
 const router = createBrowserRouter([{
   path: "/",
@@ -21,6 +23,13 @@ const router = createBrowserRouter([{
     path: '/templates',
     element: <Templates />
   }]
+}, {
+  path: '/design/create',
+  element: <CreateDesign />
+},
+{
+  path: '/design/:id/edit',
+  element: <Main />
 }])
 
 function App() {

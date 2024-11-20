@@ -5,7 +5,7 @@ import { FaHome } from "react-icons/fa";
 import { FaFolderOpen } from "react-icons/fa";
 import { GrProjects } from "react-icons/gr";
 const Layout = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const {pathname} = useLocation()
 
   return (
