@@ -16,7 +16,7 @@ const CreateDesign = () => {
     width: state.width,
     z_index: 1,
     color: "green",
-    image: "",
+    image: ""
   };
 
   
